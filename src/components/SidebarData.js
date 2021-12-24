@@ -87,5 +87,75 @@ export const SidebarData = [
     title: 'Support',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />
+  },
+  {
+    title:'Setting',
+    path:'/setting',
+    icon:<AiIcons.AiFillSetting />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav:[
+      {
+        title: 'Office',
+        path: '/setting/office',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Class',
+        path: '/setting/class',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Post',
+        path: '/setting/post',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Sewa',
+        path: '/setting/sewa',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Samhu',
+        path: '/setting/samhu',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Up Samhu',
+        path: '/setting/upsamhu',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Department',
+        path: '/setting/department',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Darbandi',
+        path: '/setting/darbandi',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Employee Types',
+        path: '/setting/employeeTypes',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Employee Status',
+        path: '/setting/employeeStatus',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Activities',
+        path: '/setting/activities',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Equipments',
+        path: '/setting/equipments',
+        icon: <IoIcons.IoIosPaper />
+      }
+    ]
   }
 ];

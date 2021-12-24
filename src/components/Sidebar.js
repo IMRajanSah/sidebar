@@ -6,6 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
+import "../App.css"
 
 const Nav = styled.div`
   background: #15171c;
@@ -26,7 +27,7 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
   background: #15171c;
-  width: 250px;
+  width: 220px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,11 +35,12 @@ const SidebarNav = styled.nav`
   top: 0;
   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
   transition: 350ms;
-  z-index: 10;
+  z-index: 100;
 `;
 
 const SidebarWrap = styled.div`
   width: 100%;
+  overflow-y:scroll;
 `;
 
 const Sidebar = () => {
